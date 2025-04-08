@@ -1,10 +1,13 @@
 # Update the 
 title: Just Another Simulation
 description: A starter template for new simulations.
+footer_content: 'Simulation created by XYZ.'
 
 # Theme configurations. Do NOT modify.
 theme: just-the-docs
 permalink: pretty
+back_to_top: true
+back_to_top_text: "Back to top"
 exclude:
   - LICENSE
   - README.md
