@@ -8,3 +8,5 @@ permalink: pretty
 exclude:
   - LICENSE
   - README.md
+  - Gemfile
+  - Gemfile.lock
