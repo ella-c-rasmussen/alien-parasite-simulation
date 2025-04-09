@@ -38,9 +38,4 @@ You may update or delete other `.md` files as needed.
 
 [giscus](https://giscus.app/) is a comment system powered by GitHub Discussions. You could use this feature for
 facilitating communication among players, submitting reports, and/or collecting feedback. To enable it,
-config your giscus app, add the JavaScript code to `_includes/head_custom.html`, and create a `.giscus` container
-where you like to insert the comment box:
-
-```html
-<div id="giscus"></div>
-```
+config your giscus app, and add the JavaScript code to where you like to insert the comment box (e.g., `background.md`).
