@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: page
 ---
+
+{{ content }}
 
 <div id="map" style="width:100%;height:400px"></div>
 
-
 <script>
-const map = L.map('map').setView([ {{ site.data.map.center.latitude }}, {{ site.data.map.center.longitude }}], 13);
+const map = L.map('map').setView([ {{ site.data.map.center.latitude }}, {{ site.data.map.center.longitude }}], {{ site.data.map.center.zoom | default: 13 }});
 
 const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
