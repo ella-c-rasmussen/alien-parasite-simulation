@@ -31,7 +31,7 @@ You may update or delete other `.md` files as needed.
 2.  Push your updated `_config.yml` to your site on GitHub.
 
 3.  In your newly created repo on GitHub:
-    - 
+    - go to the `Settings` tab -> `Pages` -> `Build and deployment`, then select `Source`: `GitHub Actions`.
     - if there were any failed Actions, go to the `Actions` tab and click on `Re-run jobs`.
 
 ## Supporting discussions
