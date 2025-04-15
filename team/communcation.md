@@ -18,7 +18,7 @@ Conversations within groups.
         data-strict="0"
         data-reactions-enabled="0"
         data-emit-metadata="0"
-        data-input-position="top"
+        data-input-position="bottom"
         data-theme="preferred_color_scheme"
         data-lang="en"
         data-loading="lazy"
