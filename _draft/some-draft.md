@@ -1,6 +1,6 @@
 ---
 title: Some Draft
-layout: page
+layout: event
 parent: Scenarios
 nav_order: 2
 ---
