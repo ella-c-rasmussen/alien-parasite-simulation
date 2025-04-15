@@ -1,6 +1,6 @@
 ---
 title: Lorem Ipsum
-layout: page
+layout: event
 parent: Scenarios
 nav_order: 1
 ---
